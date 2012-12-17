@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<config>
+    <sections translate="label" module="devopeconsole">
+        <devopeconsole>
+            <label>PhpConsole</label>
+            <tab>devopenall</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>160</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general>
+                    <label>General</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <api_key_user>
+                            <label>API Key User</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>API Key user from phpconsole.com</comment>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </api_key_user>
+                        <api_key_project>
+                            <label>API Key Project</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>API Key project from phpconsole.com</comment>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </api_key_project>
+                        <domain>
+                            <label>Domain</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>Domain for project at phpconsole.com</comment>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </domain>
+                        <nickname>
+                            <label>Nickname</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>Nickname for project phpconsole.com</comment>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </nickname>
+                        <test>
+                            <label>Test now</label>
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>devopeconsole/button</frontend_model>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </test>
+                    </fields>
+                </general>
+            </groups>
+        </devopeconsole>
+    </sections>
+</config>

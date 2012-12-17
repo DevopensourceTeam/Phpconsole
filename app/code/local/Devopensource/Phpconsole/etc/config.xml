@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Devopensource_Phpconsole>
+            <version>0.1.0</version>
+        </Devopensource_Phpconsole>
+    </modules>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <devopeconsole before="Mage_Adminhtml">Devopensource_Phpconsole_Adminhtml</devopeconsole>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <global>
+        <helpers>
+            <devopeconsole>
+                <class>Devopensource_Phpconsole_Helper</class>
+            </devopeconsole>
+        </helpers>
+        <models>
+            <devopeconsole>
+                <class>Devopensource_Phpconsole_Model</class>
+            </devopeconsole>
+        </models>
+        <blocks>
+            <devopeconsole>
+                <class>Devopensource_Phpconsole_Block</class>
+            </devopeconsole>
+        </blocks>
+    </global>
+</config>
